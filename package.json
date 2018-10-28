@@ -1,0 +1,16 @@
+{
+  "name": "angela-2018",
+  "version": "1.0.0",
+  "description": "Angela 2018",
+  "main": "index.php",
+  "author": "Angela J. Holden",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-concat": "*"
+  }
+}

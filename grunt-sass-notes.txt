@@ -1,0 +1,21 @@
+typical .gitignore file
+=======================
+node_modules
+.npm-debug.log
+tmp
+.sass-cache
+*.css.map
+
+navigate to the theme folder on the terminal and type this: npm init
+
+follow prompts and fill in the information - this creates the package.json file
+
+then install Grunt: npm install grunt --save-dev
+
+next install Sass: npm install grunt-contrib-sass --save-dev
+
+next install Watch: npm install grunt-contrib-watch --save-dev
+
+next install Autoprefixer: npm install grunt-autoprefixer --save-dev
+
+next install Uglify: npm install grunt-contrib-uglify --save-dev
