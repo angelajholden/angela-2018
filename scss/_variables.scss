@@ -1,0 +1,54 @@
+// color scheme
+$purple: #eeb0fd;
+$blue: #5271c3;
+$white: #fff;
+$black: #222;
+$gray: #eaeaea;
+
+// font-family
+$sophia: 'SofiaProLiCond', 'Helvetica', 'Arial', sans-serif;
+
+/*
+* rem-calc
+* https://45royale.com/blog/convert-pixels-to-rems/
+*/
+$global-font-size: 100% !default;
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+@function rem-calc($values, $base: null) {
+  $rem-values: ();
+  $count: length($values);
+  @if $base == null {
+    $base: $global-font-size;
+  }
+  @if unit($base) == '%' {
+    $base: ($base / 100%) * 16px;
+  }
+  @if unit($base) == 'rem' {
+    $base: strip-unit($base) * 16px;
+  }
+  @if $count == 1 {
+    @return -to-rem($values, $base);
+  }
+  @for $i from 1 through $count {
+    $rem-values: append($rem-values, -to-rem(nth($values, $i), $base));
+  }
+  @return $rem-values;
+}
+@function -to-rem($value, $base: null) {
+  @if type-of($value) != 'number' {
+    @warn inspect($value) + ' was passed to rem-calc(), which is not a number.';
+    @return $value;
+  }
+  @if unit($value) == 'em' {
+    $value: strip-unit($value) * 1rem;
+  }
+  @if unit($value) != 'rem' {
+    $value: strip-unit($value) / strip-unit($base) * 1rem;
+  }
+  @if $value == 0rem {
+    $value: 0;
+  }
+  @return $value;
+}
