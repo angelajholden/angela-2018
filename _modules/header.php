@@ -14,8 +14,8 @@
 					</div>
 
 					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="about.php">About</a></li>
 						<li><a href="#">Resume</a></li>
 						<li><a href="#">Contact</a></li>
 					</ul>
@@ -38,7 +38,7 @@
 		<div class="wrap">
 
 	  	<h1 class="title">
-	  		<?php include('svg/angela-j-holden-logo.svg'); ?>
+	  		<?php include('_svg/angela-j-holden-logo.svg'); ?>
 	  		<span class="screen-reader-text">Angela J. Holden</span>
 	  	</h1>
 

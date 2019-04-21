@@ -1,7 +1,7 @@
 <?php 
-	$title = 'Angela J. Holden | Frontend Developer';
-	$description = 'This is my new website.';
-	$body_class = 'home';
+	$title = 'About | Angela J. Holden | Frontend Developer';
+	$description = 'This is my about page.';
+	$body_class = 'about';
  ?>
 
 <?php include_once('_modules/head.php'); ?>

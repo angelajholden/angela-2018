@@ -11,7 +11,7 @@ module.exports = function(grunt) {
 					sourcemap: 'auto',
 				},
 				files: {
-					'compiled/style.css': 'scss/style.scss'
+					'_compiled/style.css': '_scss/style.scss'
 				}
 			}
 		},
@@ -24,20 +24,20 @@ module.exports = function(grunt) {
 	      },
 	      js : {
 	        files: {
-	          'compiled/base.js':
+	          '_compiled/base.js':
 	          [
-	            'js/*.js',
+	            '_js/*.js',
 	          ]
 	        }
 	      }
 	    },
 		/**
-		* Minify compiled JS file
+		* Minify _compiled JS file
 		*/
 	    uglify : {
 	      js: {
 	        files: {
-	          'compiled/base.min.js': ['compiled/base.js'],
+	          '_compiled/base.min.js': ['_compiled/base.js'],
 	        }
 	      }
 	    },
@@ -46,13 +46,13 @@ module.exports = function(grunt) {
 		*/
 		autoprefixer: {
 			options: {
-				browsers: ['last 2 versions'],
+				browsers: ['last 4 versions'],
 				map: true,
 			},
 			multiple_files: {
 				expand: true,
 				flatten: true,
-				src: 'compiled/*.css',
+				src: '_compiled/*.css',
 				dest: '',
 			}
 		},
@@ -65,7 +65,7 @@ module.exports = function(grunt) {
 				tasks: ['sass', 'autoprefixer']
 			},
 			js: {
-				files: 'js/*.js',
+				files: '_js/*.js',
 				tasks: ['concat', 'uglify']
 			}
 		}
