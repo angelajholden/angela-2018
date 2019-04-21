@@ -1,0 +1,37 @@
+.menu-open {
+	width: 49.5%;
+	color: $white;
+	cursor: pointer;
+	transition: all 0.3s ease;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: $light-pink;
+	}
+}
+
+.menu-close {
+	font-size: 2rem;
+	cursor: pointer;
+	color: $black;
+	transition: all 0.3s ease;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: $pink;
+	}
+}
+
+.module__primary-menu {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 80px 20px;
+	background-color: $white;
+	box-shadow: 1px 1px 1px rgba($black,0.1);
+}
+

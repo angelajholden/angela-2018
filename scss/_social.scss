@@ -1,0 +1,33 @@
+.module__social-menu {
+	width: 49.5%;
+	text-align: right;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+
+	li {
+		display: inline-block;
+		text-align: center;
+	}
+
+	a {
+		background-color: transparent;
+		margin: 0 0 0 5px;
+		color: $white;
+		display: block;
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+		border-radius: 50%;
+		transition: all 0.3s ease;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: $light-pink;
+		}
+	}
+}

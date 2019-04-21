@@ -4,6 +4,11 @@ $blue: #5271c3;
 $white: #fff;
 $black: #222;
 $gray: #eaeaea;
+$light-gray: #f8f8f8;
+
+$pink: #9c2b43;
+$light-pink: lighten($pink, 10%);
+$dark-pink: darken($pink, 10%);
 
 // font-family
 $sophia: 'SofiaProLiCond', 'Helvetica', 'Arial', sans-serif;

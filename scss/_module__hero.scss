@@ -1,0 +1,16 @@
+.module__hero {
+	.title {
+		width: 100%;
+		max-width: 400px;
+		margin: 0 auto;
+		padding: 15px 0 5px;
+	}
+}
+
+.home .module__hero {
+	.title {
+		width: 100%;
+		max-width: 600px;
+		padding: 25px 0 15px;
+	}
+}

@@ -24,3 +24,19 @@ body {
 	max-width: rem-calc(1000px);
 	margin: 0 auto;
 }
+
+.screen-reader-text {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+figure {
+	margin: 0;
+}
+
+img,
+svg {
+	max-width: 100%;
+	height: auto;
+}
