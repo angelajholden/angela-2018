@@ -38,7 +38,7 @@
 		<div class="wrap">
 
 	  	<h1 class="title">
-	  		<?php include('_svg/angela-j-holden-logo.svg'); ?>
+	  		<?php include_once('_svg/angela-j-holden-logo.svg'); ?>
 	  		<span class="screen-reader-text">Angela J. Holden</span>
 	  	</h1>
 
