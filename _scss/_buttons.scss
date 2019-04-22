@@ -1,0 +1,27 @@
+.button {
+	display: inline-block;
+	background-color: $dark-blue;
+	padding: rem-calc(12.5px 20px);
+	font-size: 0.8rem;
+	color: $white;
+	letter-spacing: rem-calc(2px);
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	transition: all 0.3s ease;
+
+	&::before {
+		content: "";
+		display: inline-block;
+		vertical-align: middle;
+		width: rem-calc(15px);
+		margin-right: rem-calc(12.5px);
+		border: rem-calc(1px) solid $white;
+	}
+
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: $light-blue;
+	}
+}

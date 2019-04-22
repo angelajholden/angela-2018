@@ -1,6 +1,4 @@
-// color scheme
-$purple: #eeb0fd;
-$blue: #5271c3;
+// color variables
 $white: #fff;
 $black: #222;
 $gray: #eaeaea;
@@ -10,5 +8,28 @@ $pink: #9c2b43;
 $light-pink: lighten($pink, 10%);
 $dark-pink: darken($pink, 10%);
 
-// font-family
-$sophia: 'SofiaProLiCond', 'Helvetica', 'Arial', sans-serif;
+$dark-blue: #135169;
+//$light-blue: #35b7e8;
+$light-blue: lighten($dark-blue, 10%);
+
+$green: #a8a240;
+
+// padding variables
+$wrap-padding: rem-calc(80px 20px);
+
+// flexbox
+
+// font families
+//$sophia: 'SofiaProLiCond', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+//$nexa-bold: 'Nexa_Bold', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+//$nexa-light: 'Nexa_Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$acherus-regular-italic: 'acherus_grotesque_regular_italic', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$acherus-regular: 'acherus_grotesque_regular', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$northwell: 'Northwell', cursive;
+//$northwell-alt: 'NorthwellAlt', cursive;
+
+// font variables
+$primary-font: $acherus-regular;
+//$primary-font-bold: $nexa-bold;
+$primary-font-italic: $acherus-regular-italic;
+$cursive-font: $northwell;

@@ -10,4 +10,8 @@
 
 <?php include_once('_modules/module__intro.php'); ?>
 
+<?php include_once('_modules/module__about.php'); ?>
+
+<?php include_once('_modules/module__three-across.php'); ?>
+
 <?php include_once('_modules/footer.php'); ?>	

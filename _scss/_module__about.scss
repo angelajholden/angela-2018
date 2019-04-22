@@ -1,0 +1,59 @@
+.module__about {
+	padding: rem-calc(80px 20px);
+
+	.wrap {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.about_img {
+		position: relative;
+		width: 50%;
+		z-index: 0;
+
+		img {
+			display: block;
+		}
+
+			&::after {
+			content: "";
+			display: block;
+			position: absolute;
+			bottom: rem-calc(-10px);
+			left: rem-calc(-10px);
+			width: 35%;
+			height: 35%;
+			background-color: $green;
+			z-index: -1;
+		}
+	}
+
+	.module_content {
+		width: 50%;
+		padding-left: 2rem;
+	}
+
+	.about_h2 {
+		position: relative;
+		left: -50%;
+		font-family: $cursive-font;
+		font-size: 5rem;
+		color: $black;
+		margin: 0;
+		line-height: 1;
+	}
+
+	.about_h3 {
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-size: 1.5rem;
+	}
+
+	.button {
+		position: relative;
+		left: -25%;
+		margin-top: rem-calc(32px);
+	}
+}

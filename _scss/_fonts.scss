@@ -1,27 +1,3 @@
-/*
- * Web Fonts from Fontspring.com
- *
- * All OpenType features and all extended glyphs have been removed.
- * Fully installable fonts can be purchased at http://www.fontspring.com
- *
- * The fonts included in this stylesheet are subject to the End User License you purchased
- * from Fontspring. The fonts are protected under domestic and international trademark and 
- * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
- * distributing this font software.
- *
- * (c) 2010-2017 Fontspring
- *
- *
- *
- *
- * The fonts included are copyrighted by the vendor listed below.
- *
- * Vendor:      Mostardesign
- * License URL: https://www.fontspring.com/licenses/mostardesign/webfont
- *
- *
- */
-
 @font-face {
     font-family: 'SofiaProLiCond';
     src: url('_fonts/SofiaProLiCond-webfont.woff2') format('woff2'),
@@ -29,4 +5,64 @@
     font-weight: normal;
     font-style: normal;
 
+}
+
+@font-face {
+    font-family: 'Nexa_Bold';
+    src: url('_fonts/Nexa_Free_Bold-webfont.woff2') format('woff2'),
+         url('_fonts/Nexa_Free_Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Nexa_Light';
+    src: url('_fonts/Nexa_Free_Light-webfont.woff2') format('woff2'),
+         url('_fonts/Nexa_Free_Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'acherus_grotesque_regular_italic';
+    src: url('_fonts/acherus_grotesque_-_regular_italic-webfont.woff2') format('woff2'),
+         url('_fonts/acherus_grotesque_-_regular_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'acherus_grotesque_regular';
+    src: url('_fonts/acherus_grotesque_-_regular-webfont.woff2') format('woff2'),
+         url('_fonts/acherus_grotesque_-_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Northwell';
+	src: url('_fonts/northwell.eot');
+	src: url('_fonts/northwell.eot?#iefix') format('embedded-opentype'),
+             url('_fonts/northwell.woff2') format('woff2'),
+	     url('_fonts/northwell.woff') format('woff'),
+	     url('_fonts/northwell.ttf') format('truetype'),
+	     url('_fonts/northwell.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NorthwellAlt';
+	src: url('_fonts/northwell-alt.eot');
+	src: url('_fonts/northwell-alt.eot?#iefix') format('embedded-opentype'),
+             url('_fonts/northwell-alt.woff2') format('woff2'),
+	     url('_fonts/northwell-alt.woff') format('woff'),
+	     url('_fonts/northwell-alt.ttf') format('truetype'),
+	     url('_fonts/northwell-alt.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
