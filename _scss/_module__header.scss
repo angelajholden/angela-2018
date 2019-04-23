@@ -1,0 +1,16 @@
+.module__header {
+	padding: rem-calc(40px 20px);
+
+	&.gray {
+		background-color: $light-gray;
+	}
+
+	.page_title {
+		font-family: $northwell;
+		font-size: 5rem;
+		line-height: 1.25;
+		color: $black;
+		margin: 0;
+		text-align: center;
+	}
+}

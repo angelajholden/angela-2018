@@ -1,6 +1,6 @@
 <body class="<?php echo $body_class; ?>">
 
-	<header class="module__header">
+	<header class="header">
 		<div class="wrap">
 
 			<div class="menu-open">
@@ -16,8 +16,10 @@
 					<ul>
 						<li><a href="index.php">Home</a></li>
 						<li><a href="about.php">About</a></li>
-						<li><a href="#">Resume</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="resume.php">Resume</a></li>
+						<li><a href="services.php">Services</a></li>
+						<li><a href="portfolio.php">Portfolio</a></li>
+						<li><a href="mailto:info@angelajholden.com" target="_blank">Contact</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -37,10 +39,10 @@
 	<section class="module__hero">
 		<div class="wrap">
 
-	  	<h1 class="title">
+	  	<h1 class="title"><a href="/">
 	  		<?php include_once('_svg/angela-j-holden-logo.svg'); ?>
 	  		<span class="screen-reader-text">Angela J. Holden</span>
-	  	</h1>
+	  	</a></h1>
 
 		</div>
 	</section>

@@ -1,4 +1,5 @@
 <?php 
+	$robots = 'noindex, nofollow';
 	$title = 'Angela J. Holden | Frontend Developer';
 	$description = 'This is my new website.';
 	$body_class = 'home';

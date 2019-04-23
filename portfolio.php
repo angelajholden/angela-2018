@@ -1,9 +1,9 @@
 <?php 
 	$robots = 'noindex, nofollow';
-	$title = 'About | Angela J. Holden | Frontend Developer';
-	$description = 'This is my about page.';
-	$body_class = 'about';
-	$page_title = 'About Me';
+	$title = 'Portfolio | Angela J. Holden | Frontend Developer';
+	$description = 'This is my portfolio page.';
+	$body_class = 'Portfolio';
+	$page_title = 'Portfolio of Work';
 	$header_bg_color = '';
  ?>
 

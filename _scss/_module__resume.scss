@@ -1,0 +1,61 @@
+.module__resume {
+	padding: rem-calc(0 20px 80px);
+	
+	.wrap {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+
+	.left_col {
+		width: 50%;
+		border-right: 1px solid $green;
+	}
+
+	.right_col {
+		width: 50%;
+		border-left: 1px solid $green;
+	}
+
+	.resume_item {
+		position: relative;
+		width: 100%;
+		margin: 0 0 2rem;
+		padding: 2rem;
+		background-color: $light-gray;
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+
+		span {
+			position: absolute;
+			top: 0;
+			right: 0;
+			padding: rem-calc(5px 10px);
+			color: $white;
+			background-color: $light-blue;
+		}
+
+		h3 {
+			font-size: 1.25rem;
+			text-transform: uppercase;
+			letter-spacing: rem-calc(2px);
+			margin: 0 0 1rem;
+		}
+
+		p {
+			font-size: 0.9rem;
+		}
+
+		&:nth-of-type(even) {
+			left: calc(100% + 2px);
+			text-align: right;
+
+			span {
+				right: unset;
+				left: 0;
+			}
+		}
+	}
+}
