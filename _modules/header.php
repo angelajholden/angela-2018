@@ -14,11 +14,11 @@
 					</div>
 
 					<ul>
-						<li><a href="index.php">Home</a></li>
-						<li><a href="about.php">About</a></li>
-						<li><a href="resume.php">Resume</a></li>
-						<li><a href="services.php">Services</a></li>
-						<li><a href="portfolio.php">Portfolio</a></li>
+						<li><a href="./">Home</a></li>
+						<li><a href="./about">About</a></li>
+						<li><a href="./resume">Resume</a></li>
+						<li><a href="./services">Services</a></li>
+						<li><a href="./portfolio">Portfolio</a></li>
 						<li><a href="mailto:info@angelajholden.com" target="_blank">Contact</a></li>
 					</ul>
 				</div>
@@ -39,7 +39,7 @@
 	<section class="module__hero">
 		<div class="wrap">
 
-	  	<h1 class="title"><a href="/">
+	  	<h1 class="title"><a href="./">
 	  		<?php include_once('_svg/angela-j-holden-logo.svg'); ?>
 	  		<span class="screen-reader-text">Angela J. Holden</span>
 	  	</a></h1>
