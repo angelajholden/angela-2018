@@ -10,11 +10,20 @@
 	.left_col {
 		width: 50%;
 		border-right: 1px solid $green;
+
+		@media (max-width: 960px) {
+			width: 100%;
+			border-right: 2px solid $green;
+		}
 	}
 
 	.right_col {
 		width: 50%;
 		border-left: 1px solid $green;
+
+		@media (max-width: 960px) {
+			display: none;
+		}
 	}
 
 	.resume_item {
@@ -55,6 +64,21 @@
 			span {
 				right: unset;
 				left: 0;
+			}
+		}
+
+		@media (max-width: 960px) {
+			margin: 2rem 0;
+			padding: 3rem 1.5rem 1.5rem;
+
+			&:nth-of-type(even) {
+				left: 0;
+				text-align: left;
+
+				span {
+					left: unset;
+					right: 0;
+				}
 			}
 		}
 	}

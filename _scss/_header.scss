@@ -1,10 +1,16 @@
-.menu-open,
-.module__social-menu {
-	display: inline-block;
-}
-
 .header {
-	padding: 5px 20px;
+	padding: 10px 20px;
 	//background-color: $pink;
 	background-image: linear-gradient(to right, $light-pink, $pink);
+
+	.wrap {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+
+	.menu-open,
+	.module__social-menu {
+		width: 50%;
+	}
 }

@@ -26,10 +26,14 @@
 
 			<nav class="module__social-menu">
 				<ul>
-					<li><a href="#"><span class="fab fa-linkedin-in"></span><span class="screen-reader-text">LinkedIn</span></a></li>
-					<li><a href="#"><span class="fab fa-instagram"></span><span class="screen-reader-text">Instagram</span></a></li>
-					<li><a href="#"><span class="fab fa-pinterest-p"></span><span class="screen-reader-text">Pinterest</span></a></li>
-					<li><a href="#"><span class="fab fa-github-alt"></span><span class="screen-reader-text">Github</span></a></li>
+					<li><a href="https://www.linkedin.com/in/angelajholden/" target="_blank">
+						<span class="fab fa-linkedin-in"></span><span class="screen-reader-text">LinkedIn</span></a></li>
+					<li><a href="https://www.instagram.com/angelajholden/" target="_blank">
+						<span class="fab fa-instagram"></span><span class="screen-reader-text">Instagram</span></a></li>
+					<li><a href="https://www.pinterest.com/angelajholden/" target="_blank">
+						<span class="fab fa-pinterest-p"></span><span class="screen-reader-text">Pinterest</span></a></li>
+					<li><a href="https://github.com/angelajholden" target="_blank">
+						<span class="fab fa-github-alt"></span><span class="screen-reader-text">Github</span></a></li>
 				</ul>
 			</nav>
 
