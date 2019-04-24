@@ -1,0 +1,21 @@
+.module__call-action {
+	padding: rem-calc(40px 20px);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+	.wrap {
+		background-image: linear-gradient(45deg, $green, $dark-blue);
+		padding: rem-calc(15px);
+	}
+
+	.module_content {
+		padding: rem-calc(25px);
+		background-color: rgba($white,0.9);
+		//background-color: $white;
+	}
+
+	.button {
+		margin-top: 2rem;
+	}
+}

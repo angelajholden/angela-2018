@@ -1,5 +1,5 @@
 .module__resume {
-	padding: rem-calc(0 20px 80px);
+	padding: rem-calc(0 20px);
 	
 	.wrap {
 		display: flex;
@@ -20,12 +20,12 @@
 	.resume_item {
 		position: relative;
 		width: 100%;
-		margin: 0 0 2rem;
+		margin: 5rem 0;
 		padding: 2rem;
 		background-color: $light-gray;
 
 		&:last-of-type {
-			margin-bottom: 0;
+			//margin-bottom: 0;
 		}
 
 		span {

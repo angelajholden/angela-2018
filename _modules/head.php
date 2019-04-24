@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title><?php echo $title; ?></title>
-    <meta name="description" content="<?php echo $desc; ?>">
+    <meta name="description" content="<?php echo $description; ?>">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-zhaLg9HKxTxDljOPXpWHGn91XMDH+sYAWRSgvzHes290/ISyrNicGrd6BInTnx3L" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico">
